@@ -1,0 +1,118 @@
+/* CSS Document */
+
+/* The body */
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    color: #2D3748;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Header of the Websitec*/
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    padding: 30px;
+    height: 250px;
+    width: 100%;
+    background-color:  #63B3ED;
+}
+
+/* Tatanya Lynch's heading design */
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 36px;
+}
+
+/* The date's design */
+h5 {
+  color: #718096;
+}
+
+/* The Sidebar design Section */
+aside {
+  margin-left: auto;
+  width: 200px;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+/* The Main Content Section */
+main {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+/* The Footer Section */
+footer {
+  grid-column: 1 / 3;
+  grid-row: 3 / 4;
+  background-color: #2C5282;
+  color:#FFFFFF ;
+}
+
+/*To set Tatanya's picture in a circle*/
+img {
+    border-radius: 90%;
+    position: center;
+}
+
+/* Aliging of the images in the main content */
+.girl {
+    float: right;
+}
+  
+.polarbear {
+    float: left;
+} 
+
+/* Designing of the about section in the sidebar */
+.about {
+  background-color: #E2E8F0;
+  padding: 15px;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 15px;
+}
+
+/* General List Design */
+ul {
+  padding-inline-start: 0px;
+}
+
+/* To remove the bullet points from the list */
+li {
+  list-style: none;
+}
+
+/* The desihning of the links in the social media and archive section */
+a {
+  color: #4299E1;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* To set the colour of the words in social media and archive */
+.title {
+  color: #48BB78;
+  padding-top: 20px;
+  font-size: 32px;
+  font-family: 'Times New Roman', Times, serif; 
+}
+
+/* Designing the words in the About */
+.about-title {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+
+
